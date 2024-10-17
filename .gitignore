@@ -10,4 +10,5 @@
 # 确保 .gitignore 文件本身被上传
 !.gitignore
 
+！*/readme
 

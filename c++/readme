@@ -1,1 +1,6 @@
 demo视频在 数据盘/dolpin_dataset/ 下
+
+idtd: infrared DIM target detection，红外弱小单目标检测
+sot: single object tracking，单目标跟踪（大目标）
+
+代码只需修改视频读取路径即可运行
