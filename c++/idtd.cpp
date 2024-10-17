@@ -13,8 +13,8 @@ using namespace std;
 Mat newRingStrel(int ro, int ri);
 
 //newTopHat²ÎÊý
-int ro = 6;
-int ri = 5;
+int ro = 11;
+int ri = 10;
 Mat delta_b = newRingStrel(ro, ri);
 Mat bb = Mat::ones(2 * ri + 1, 2 * ri + 1, CV_8UC1);
 
