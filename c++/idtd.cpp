@@ -88,7 +88,7 @@ void showImg(Mat frame, chrono::steady_clock::time_point start)
 
 int main()
 {
-    VideoCapture video("D:/dataset/corseTrack/104658.mp4", IMREAD_GRAYSCALE);
+    VideoCapture video("I:/dolphin_dataset/idtd.mp4", IMREAD_GRAYSCALE);
     if (!video.isOpened())
         return -1;
 

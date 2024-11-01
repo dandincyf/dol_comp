@@ -50,7 +50,7 @@ int main()
 {
     //j20240419_1_dark
     //j20240419_6_light
-    VideoCapture video("H:/data/FN20240708-/J20240711/J20240711fire.mp4", IMREAD_GRAYSCALE);
+    VideoCapture video("I:/dolphin_dataset/video.mp4", IMREAD_GRAYSCALE);
     if (!video.isOpened())
         return -1;
 
@@ -81,8 +81,8 @@ int main()
         //medianBlur(frame, frame, 3);
 
         //¸¯Ê´
-        Mat b2 = Mat::ones(4, 4, CV_8UC1);
-        erode(frame, frame, b2);
+        //Mat b2 = Mat::ones(4, 4, CV_8UC1);
+        //erode(frame, frame, b2);
 
         auto start = high_resolution_clock::now();
         cout << "min= " << (num / 20) / 60 << ",sec=" << (num / 20) % 60 << endl;

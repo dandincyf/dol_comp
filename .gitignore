@@ -6,6 +6,7 @@
 
 # 允许所有子文件夹中的 .cpp 文件
 !c++/*.cpp
+!python/*.py
 
 # 确保 .gitignore 文件本身被上传
 !.gitignore
